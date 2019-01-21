@@ -22,7 +22,7 @@ public class ApiController {
     @GetMapping("/profile")
     public String profile() {
         List<String> profiles = Arrays.asList(env.getActiveProfiles());
-
+        System.out.println("sadf");
         if(profiles.contains("set1")){
             return "set1";
         }
