@@ -49,7 +49,7 @@ deploy:
   region: ap-northeast-2
   wait-until-deployed: true
   on:
-    repo: jojoldu/travisci-deploy
+    repo: hangdonchoi/travisci-deploy
     branch: master
 
 # CI 실행 완료시 메일로 알람
