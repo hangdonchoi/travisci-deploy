@@ -44,8 +44,8 @@ deploy:
   bucket: dwlee-code-deploy111
   key: travisci-deploy/deploy-files.zip
   bundle_type: zip
-  application: dwlee-travisci
-  deployment_group: travisci-deploy
+  application: fitchoo
+  deployment_group: traves
   region: ap-northeast-2
   wait-until-deployed: true
   on:
@@ -56,4 +56,4 @@ deploy:
 notifications:
   email:
     recipients:
-    - jojoldu@gmail.com
+    - hidon84@gmail.com
