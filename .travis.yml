@@ -36,7 +36,7 @@ deploy:
   upload-dir: travisci-deploy
   wait-until-deployed: true
   on:
-    repo: jojoldu/travisci-deploy
+    repo: hangdonchoi/travisci-deploy
     branch: master
 - provider: codedeploy
   access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
