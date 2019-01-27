@@ -13,7 +13,7 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    public static final String MESSAGE = "Hello! MicroSoftware";
+    public static final String MESSAGE = "Hello! MicroSoftware 0128";
 
     @GetMapping("/")
     public String hello () {
