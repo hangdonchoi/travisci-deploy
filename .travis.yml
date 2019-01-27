@@ -41,11 +41,11 @@ deploy:
 - provider: codedeploy
   access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
   secret_access_key: $AWS_SECRET_KEY
-  bucket: dwlee-code-deploy111
+  bucket: fitchoo-deploy
   key: travisci-deploy/deploy-files.zip
   bundle_type: zip
-  application: fitchoo
-  deployment_group: traves
+  application: fitchoo-deploy
+  deployment_group: fitchoo-server-deploy
   region: ap-northeast-2
   wait-until-deployed: true
   on:
